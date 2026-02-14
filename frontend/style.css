@@ -105,27 +105,27 @@ header h1 {
 
 #newChatButton {
     width: 100%;
-    padding: 0.75rem 1rem;
-    background: var(--background);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    color: var(--text-primary);
+    padding: 0.5rem 0;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
     font-size: 0.875rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: color 0.2s ease;
     margin-bottom: 1.5rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 #newChatButton:hover {
-    background: var(--surface-hover);
-    border-color: var(--primary-color);
     color: var(--primary-color);
 }
 
 #newChatButton:focus {
     outline: none;
-    box-shadow: 0 0 0 3px var(--focus-ring);
+    color: var(--primary-color);
 }
 
 .sidebar-section {
