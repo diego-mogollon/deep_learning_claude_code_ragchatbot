@@ -55,3 +55,6 @@ cd backend && uv run uvicorn app:app --reload --port 8000
 - Requires `ANTHROPIC_API_KEY` in `.env` at project root
 - ChromaDB persists to `backend/chroma_db/`
 - Course documents go in `docs/` (`.txt` files with structured format)
+
+## Github and Git
+- Always author commits using my email diego-mogollon@users.noreply.github.com
